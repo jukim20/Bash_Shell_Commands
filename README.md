@@ -20,10 +20,11 @@ Mac OS Terminal Commands
 | Key/Command | Description |
 | ----------- | ----------- |
 | touch [file] | create new file |
-| cp [file] [new file ] | copy file into new file |
-| cp *.txt [dir] | copy all files that end in txt into directory |
+| cp [file] [new file / dir] | copy file into new file or directory |
 | rm [file] | remove file |
 | rm -i [file] | ask before removing file |
+| ? | applies to files missing one character (ex. cp morsec?.txt backup => copies morsecp.txt into backup folder)
+| * | applies to any number of characters (ex. cp *.txt backup => copies all txt files into backup folder)
 
 
 ## Working with Nano
