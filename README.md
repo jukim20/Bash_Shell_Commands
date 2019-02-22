@@ -16,6 +16,8 @@ Mac OS Bash Shell Commands
 | mkdir [dir] | make new directory |
 | cp -r [dir] / [new directory] | copy directory into new directory |
 | rm -r [dir] | remove directory and all sub directories |
+| find . -type [type] | lists the given type (ex. find . -type d => only the directories) |
+| find . -name [file] | lists the file that contains the name (ex. find . -name *.txt => returns all text files) |
 
 
 ## Working with Files
@@ -39,12 +41,17 @@ Mac OS Bash Shell Commands
 | [command] < [file] | read content from file |
 | sort [file] | sort content of file according to alphabetical order |
 | sort -n [file] | sort content of file according to numerical order |
+| sort -r [file] | sort in reverse order |
+| grep [str] [file] | find and return lines containing string in the file |
+| grep -w [str] [file] | find and return lines containing the whole word str |
+| grep -n [str] [file] | find the number of times the string has appeared |
 
 
 ## Piping Commands
 | Key/Command | Description |
 | ----------- | ----------- |
 | [command-a] \| [command-b] |  run command a, pass result to command b, run command b (ex. sort length.txt | head -n 5 => sort the file and prints first 5 lines)
+
 
 ## Working with Nano
 | Key/Command | Description |
