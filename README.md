@@ -2,6 +2,7 @@
 Mac OS Terminal Commands
 
 ## Working with Directories
+
 | Key/Command | Description |
 | ----------- | ----------- |
 | cd [folder] | move to the directory (ex. cd Desktop) |
@@ -18,6 +19,7 @@ Mac OS Terminal Commands
 
 
 ## Working with Files
+
 | Key/Command | Description |
 | touch [file] | create new file |
 | cp [file] [new file ] | copy file into new file |
