@@ -1,6 +1,5 @@
 # Terminal Commands
-Mac OS Terminal Commands
-QCL Coding Bootcamp by Data Carpentry, 02-22-2019
+Mac OS Terminal Commands from QCL Coding Bootcamp by Data Carpentry, 02-22-2019
 
 ## Working with Directories
 | Key/Command | Description |
