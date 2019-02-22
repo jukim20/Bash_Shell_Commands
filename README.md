@@ -20,7 +20,8 @@ Mac OS Terminal Commands
 | Key/Command | Description |
 | ----------- | ----------- |
 | touch [file] | create new file |
-| cp [file] [new file / dir] | copy file into new file or directory |
+| cp [file] [new file] | copy file into new file |
+| cp [file] [dir] | copy file into directory |
 | rm [file] | remove file |
 | rm -i [file] | ask before removing file |
 | ? | applies to files missing one character (ex. cp morsec?.txt backup => copies morsecp.txt into backup folder)
