@@ -1,6 +1,7 @@
 # Terminal-Commands
 Mac OS Terminal Commands
 
+## Working with Directories
 | Key/Command | Description |
 | ----------- | ----------- |
 | cd [folder] | move to the directory (ex. cd Desktop) |
@@ -10,9 +11,17 @@ Mac OS Terminal Commands
 | ls -a | list w/ hidden contents |
 | ls .. | list of contents in parent directory |
 | pwd | show current directory |
+| mkdir [dir] | make new directory |
+| cp -r [dir] / [new directory] | copy directory into new directory |
+| rm -r [dir] | remove directory and all sub directories |
+
+
+
+## Working with Files
+| Key/Command | Description |
 | touch [file] | create new file |
+| cp [file] [new file ] | copy file into new file |
 | rm [file] | remove file |
 | rm -i [file] | ask before removing file |
-| rm -r [dir] | remove directory and all sub directories |
 
 
