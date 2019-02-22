@@ -2,7 +2,6 @@
 Mac OS Terminal Commands
 
 ## Working with Directories
-
 | Key/Command | Description |
 | ----------- | ----------- |
 | cd [folder] | move to the directory (ex. cd Desktop) |
@@ -11,20 +10,32 @@ Mac OS Terminal Commands
 | ls | list of contents in the current directory |
 | ls -a | list w/ hidden contents |
 | ls .. | list of contents in parent directory |
-| pwd | show current directory |
+| pwd | show working directory |
 | mkdir [dir] | make new directory |
 | cp -r [dir] / [new directory] | copy directory into new directory |
 | rm -r [dir] | remove directory and all sub directories |
 
 
-
 ## Working with Files
-
 | Key/Command | Description |
 | ----------- | ----------- |
 | touch [file] | create new file |
 | cp [file] [new file ] | copy file into new file |
+| cp *.txt [dir] | copy all files that end in txt into directory |
 | rm [file] | remove file |
 | rm -i [file] | ask before removing file |
 
 
+## Working with Nano
+| Key/Command | Description |
+| ----------- | ----------- |
+| nano [file] | creates a new nano file |
+| ^ | control |
+| ^O | save file |
+| ^X | exit file |
+
+## Command history
+| Key/Command | Description |
+| ----------- | ----------- |
+| history | shows all past commands |
+| !! | execute the last command |
