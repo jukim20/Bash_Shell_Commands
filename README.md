@@ -1,4 +1,4 @@
-# Terminal-Commands
+# Terminal Commands
 Mac OS Terminal Commands
 
 ## Working with Directories
@@ -21,6 +21,7 @@ Mac OS Terminal Commands
 ## Working with Files
 
 | Key/Command | Description |
+| ----------- | ----------- |
 | touch [file] | create new file |
 | cp [file] [new file ] | copy file into new file |
 | rm [file] | remove file |
