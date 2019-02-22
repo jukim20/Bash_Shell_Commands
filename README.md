@@ -8,7 +8,7 @@ Mac OS Terminal Commands
 | cd [folder] | move to the directory (ex. cd Desktop) |
 | cd | move to home directory |
 | cd .. | move to parent directory |
-| ls | list of contents |
+| ls | list of contents in the current directory |
 | ls -a | list w/ hidden contents |
 | ls .. | list of contents in parent directory |
 | pwd | show current directory |
