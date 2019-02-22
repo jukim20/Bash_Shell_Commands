@@ -24,10 +24,8 @@ Mac OS Terminal Commands
 | cp [file] [dir] | copy file into directory |
 | rm [file] | remove file |
 | rm -i [file] | ask before removing file |
-| ? | applies to files missing one character 
-(ex. cp morsec?.txt backup => copies morsecp.txt into backup folder) |
-| * | applies to any number of characters 
-(ex. cp *.txt backup => copies all txt files into backup folder) |
+| ? | applies to files missing one character (ex. cp morsec?.txt backup => copies morsecp.txt into backup folder) |
+| * | applies to any number of characters (ex. cp *.txt backup => copies all txt files into backup folder) |
 
 
 ## Working with Nano
