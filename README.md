@@ -1,5 +1,5 @@
-# Terminal Commands
-Mac OS Bash Commands
+# Terminal Commands for the Unix Shell
+Mac OS Bash Shell Commands
 
 ## Working with Directories
 | Key/Command | Description |
@@ -39,7 +39,12 @@ Mac OS Bash Commands
 | [command] < [file] | read content from file |
 | sort [file] | sort content of file according to alphabetical order |
 | sort -n [file] | sort content of file according to numerical order |
-| 
+
+
+## Piping Commands
+| Key/Command | Description |
+| ----------- | ----------- |
+| [command-a] \| [command-b] |  run command a, pass result to command b, run command b (ex. sort length.txt | head -n 5 => sort the file and prints first 5 lines)
 
 ## Working with Nano
 | Key/Command | Description |
