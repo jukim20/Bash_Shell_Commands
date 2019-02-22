@@ -41,3 +41,10 @@ Mac OS Terminal Commands
 | ----------- | ----------- |
 | history | shows all past commands |
 | !! | execute the last command |
+
+## Help
+| Key/Command | Description |
+| ----------- | ----------- |
+| [command] --help | offers help (ex. cp --help) |
+| man [command] | shows manual for command (exit with q) |
+
