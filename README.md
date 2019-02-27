@@ -8,9 +8,11 @@ Mac OS Bash Shell Commands
 | .. | parent directory |
 | cd [folder] | move to the directory (ex. cd Desktop) |
 | cd | move to home directory |
+| cd ~ | move to home directory
 | cd .. | move to parent directory |
 | ls | list of contents in the current directory |
 | ls -a | list w/ hidden contents |
+| ls -l | long form with more info |
 | ls .. | list of contents in parent directory |
 | pwd | show working directory |
 | mkdir [dir] | make new directory |
@@ -18,6 +20,7 @@ Mac OS Bash Shell Commands
 | rm -r [dir] | remove directory and all sub directories |
 | find . -type [type] | lists the given type (ex. find . -type d => only the directories) |
 | find . -name [file] | lists the file that contains the name (ex. find . -name *.txt => returns all text files) |
+| chmod [user][group][other] | give precise permission |
 
 
 ## Working with Files
